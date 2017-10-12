@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\mysite",
+    "\\mysite\\templates",
+    "\\polls",
+    "\\polls\\static\\polls",
+    "\\polls\\static\\polls\\imagens",
+    "\\polls\\templates",
+    "\\polls\\templates\\polls"
+  ],
+  "SelectedNode": "\\mysite\\templates\\admin",
+  "PreviewInSolutionExplorer": false
+}
