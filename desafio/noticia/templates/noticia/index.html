@@ -1,0 +1,25 @@
+﻿
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />    
+    <title>Noticias</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'noticia/bootstrap/css/bootstrap.css' %}" />
+</head>
+<body>
+    
+        <h1> CATEGORIAS </h1>
+        {% if categorias %}
+        <ul>
+            {% for categoria in categorias %}
+            <li><a href="{% url 'noticia:categoria' categoria.id %}">{{ categoria.nome }}</a></li>
+            {% endfor %}
+        </ul>
+        {% else %}
+
+        {% endif %}
+
+</body>
+</html>

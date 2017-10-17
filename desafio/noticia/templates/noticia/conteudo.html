@@ -1,0 +1,17 @@
+﻿</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Noticias</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'noticia/bootstrap/css/bootstrap.css' %}" />
+</head>
+<body>
+    
+        <h1>{{noticia.titulo}}</h1>
+        <p>{{noticia.texto}}</p>
+    <a href="{% url 'noticia:categoria' categoria.id %}">Voltar a Noticias</a>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\noticia",
+    "\\noticia\\static",
+    "\\noticia\\static\\noticia",
+    "\\noticia\\static\\noticia\\bootstrap",
+    "\\noticia\\static\\noticia\\bootstrap\\css",
+    "\\noticia\\templates",
+    "\\noticia\\templates\\noticia"
+  ],
+  "SelectedNode": "\\noticia\\views.py",
+  "PreviewInSolutionExplorer": false
+}
